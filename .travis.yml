@@ -1,7 +1,6 @@
 language: python
 
 python:
-  - "2.7"
   - "3.6"
   - "nightly"
 
@@ -11,4 +10,4 @@ install:
 
 script:
   - nosetests -v
-  - kafka-rest
+  - kafka-rest -h
